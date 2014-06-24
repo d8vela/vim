@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/gpfs/DS3524-1/WORK/davela/Rosetta/main/source/src/protocols/toolbox/task_operations'
+let g:netrw_dirhist_2='/gpfs/DS3524-1/WORK/davela/Rosetta/main/source/src/protocols/toolbox'
+let g:netrw_dirhist_3='/gpfs/DS3524-1/WORK/davela/Ebola/Graft/MARV/RBS/AbPin_Domain/pdbs_doom'
+let g:netrw_dirhist_4='/gpfs/DS3524-1/WORK/davela/Ebola/Graft/MARV/RBS/AbPin_Domain'
+let g:netrw_dirhist_5='/gpfs/DS3524-1/WORK/davela/Ebola/Graft/MARV/RBS/AbPin_Domain/pdbs_doom'
+let g:netrw_dirhist_6='/gpfs/DS3524-1/WORK/davela/test/packstat'
+let g:netrw_dirhist_7='/gpfs/DS3524-1/WORK/davela/test'
+let g:netrw_dirhist_8='/gpfs/DS3524-1/WORK/davela/Ebola/MiSeq/A12_SSM/scripts/step4'
+let g:netrw_dirhist_9='/gpfs/DS3524-1/WORK/davela/.vim/bundle/vim-windowswap/plugin'
