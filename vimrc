@@ -86,3 +86,6 @@ let g:syntastic_python_checkers=['python', 'pyflakes']
 "let g:syntastic_json_checkers = ['jsonlint']
 "let g:syntastic_xml_checkers = ['xmllint']
 
+" Special VIM Search Highlight Clearing with Return
+nnoremap <CR> :nohlsearch<cr>
+
