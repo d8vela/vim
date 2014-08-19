@@ -8,7 +8,7 @@ set cindent
 
 " VIM Mouse Support
 set mouse=a
-set ttymouse=xterm2
+set ttymouse=xterm
 
 let g:windowswap_map_keys = 0 "prevent default bindings
 nnoremap <silent> <leader>yw :call WindowSwap#MarkWindowSwap()<CR>
