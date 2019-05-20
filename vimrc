@@ -11,6 +11,7 @@ set mouse=a
 set ttymouse=xterm
 
 " VIM Visual Block Buffer Limit (Copy and Paste up to 1000 lines, and size up to 1000kb)
+" Source: https://stackoverflow.com/questions/17812111/default-buffer-size-to-copy-paste-in-vim
 set viminfo='20,<1000,s1000
 
 let g:windowswap_map_keys = 0 "prevent default bindings
