@@ -10,6 +10,9 @@ set cindent
 set mouse=a
 set ttymouse=xterm
 
+" VIM Visual Block Buffer Limit (Copy and Paste up to 1000 lines, and size up to 1000kb)
+set viminfo='20,<1000,s1000'
+
 let g:windowswap_map_keys = 0 "prevent default bindings
 nnoremap <silent> <leader>yw :call WindowSwap#MarkWindowSwap()<CR>
 nnoremap <silent> <leader>pw :call WindowSwap#DoWindowSwap()<CR>
@@ -80,7 +83,7 @@ let g:syntastic_warning_symbol="W>"
 let g:syntastic_perl_checkers=['perl']
 "let g:syntastic_perl_lib_path=['/work/davela/perl5/lib/perl5']
 let g:syntastic_enable_perl_checker = 1
-let g:syntastic_python_checkers=['python', 'pyflakes']
+let g:syntastic_python_checkers=['python3.7', 'pyflakes']
 "let g:syntastic_javascript_checkers = ['jslint']
 "let g:syntastic_html_checkers = ['w3']
 "let g:syntastic_json_checkers = ['jsonlint']
